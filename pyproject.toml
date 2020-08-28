@@ -1,0 +1,35 @@
+[tool.briefcase]
+project_name = "Mech Builder"
+bundle = "dev.thunstrom.piper"
+version = "0.0.1"
+url = "https://piper.thunstrom.dev"
+license = "Proprietary"
+author = 'Piper Thunstrom'
+author_email = "pathunstrom@gmail.com"
+
+[tool.briefcase.app.mechbuilder]
+formal_name = "Mech Builder"
+description = "A turn based mecha based RPG"
+icon = "src/mechbuilder/resources/mechbuilder"
+sources = ['src/mechbuilder']
+requires = [
+    'ppb~=0.9.0',
+]
+
+
+[tool.briefcase.app.mechbuilder.macOS]
+requires = []
+
+[tool.briefcase.app.mechbuilder.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.mechbuilder.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.mechbuilder.iOS]
+requires = []
+
+[tool.briefcase.app.mechbuilder.android]
+requires = []

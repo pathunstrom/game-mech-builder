@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: mechbuilder
+Formal-Name: Mech Builder
+App-ID: dev.thunstrom.piper.mechbuilder
+Version: 0.0.1
+Home-page: https://piper.thunstrom.dev
+Author: Piper Thunstrom
+Author-email: pathunstrom@gmail.com
+Summary: A turn based mecha based RPG
